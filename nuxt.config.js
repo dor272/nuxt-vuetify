@@ -69,9 +69,9 @@ export default {
    */
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
-    treeShake: {
-      loaderOptions: { registerStylesSSR: true }
-    },  
+    loader: {
+      registerStylesSSR: true
+    },
     theme: {
       dark: true,
       themes: {
